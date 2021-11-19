@@ -11,8 +11,7 @@ Disclaimer: Information shown may be inaccurate, since it is depending on 3rd Pa
 Developer Info
 -
 Install Node.js and Dependencies:
-> npm install discord.io winston -save
-> npm install node-fetch
+> npm install discord.io winston node-fetch -save
 
 Update API Tokens:
 
