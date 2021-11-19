@@ -1,6 +1,6 @@
 Discord CG-Bot
 =
-A Discord Bot to jail into a channel and show current CG Information as taken from INARA.cz API endpoint.
+A Discord Bot to jail into a channel and show current Elite: Dangerous Community Goal information, fetched from the INARA.cz API endpoint.
 
 Update cycle is 15 minutes.
 
