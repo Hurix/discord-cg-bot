@@ -1,8 +1,8 @@
 {
   "name": "discord-cg-bot",
   "version": "1.0.0",
-  "description": "Elite: Dangerous Community Goal",
-  "main": "discord_webhook.js",
+  "description": "ED CG-Viewer for Discord",
+  "main": "inara_webhook_worker.js",
   "dependencies": {
     "discord.js": "^13.3.1",
     "node-fetch": "^2.6.6"
