@@ -1,4 +1,5 @@
 {
-"token": "discord bot token",
-"inaraAPIKey": "inara api key"
+    "inaraAPIKey": "inara api token",
+    "webhookId": "webhook id",
+    "webhookToken": "webhook token"
 }

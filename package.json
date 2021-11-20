@@ -1,12 +1,24 @@
 {
-  "name": "CG-Bot",
+  "name": "discord-cg-bot",
   "version": "1.0.0",
-  "description": "Elite: Dangerous Community Goal Bot",
-  "main": "bot.js",
-  "author": "hurix",
+  "description": "Elite: Dangerous Community Goal",
+  "main": "discord_webhook.js",
   "dependencies": {
-    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
-    "node-fetch": "^3.1.0",
-    "winston": "^3.3.3"
-  }
+    "discord.js": "^13.3.1",
+    "node-fetch": "^2.6.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hurix/discord-cg-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hurix/discord-cg-bot/issues"
+  },
+  "homepage": "https://github.com/Hurix/discord-cg-bot#readme"
 }
