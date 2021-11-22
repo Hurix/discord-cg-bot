@@ -4,7 +4,7 @@ const { inaraAPIKey, webhookId, webhookToken } = require('./auth.json');
 
 const webhookClient = new WebhookClient({ id: webhookId, token: webhookToken });
 const inara = new InaraAPI({
-	appName: "ED CG-Viewer for Discord",
+	appName: "HurixBot",
 	appVersion: "1.0.0",
 	isBeingDeveloped: true,
 	APIkey: inaraAPIKey
@@ -26,6 +26,7 @@ const embedCGData = cgdata => {
 	if (!cgdata.isCompleted) embed.setURL(cgdata.inaraURL)
 	return embed
 }
+
 function sleep(ms) {
 	return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -53,41 +54,46 @@ function equalEmbeds(a, b) {
 	}
 	return diffs
 }
+
 var MAX_RETRYS = 5
 var retrys = 0
 async function work() {
 	var lastmsg;
-	var i = 0;
-	while(true) {
-		inara.testdata = require(`./testdata${i}.json`)
-		i+=1
-		if (i>4) i=0
-		var cgdata = inara.getCommunityGoalsRecent()//.then(cgdata => {
-			if (cgdata.eventStatus === 200) {
-				let embeds = []
-				cgdata.eventData.map((eventData) => embeds.push(embedCGData(eventData)))
-				
-				if (lastmsg && equalEmbeds(lastmsg.embeds, embeds)) {
-					lastmsg = await webhookClient.editMessage(lastmsg, {
-						embeds: embeds
-					})
-				} else {
-					lastmsg = await webhookClient.send({
-						embeds: embeds
-					})
-				}
-				retrys = 0
-			}
-			else {
-				console.log("error", cgdata)
-				break
-			}
-		//}).catch(error => {
-		//	console.error('INARA Error: ', error);
-		//})
-		await sleep(0.25*60*1000)
+	var error = false
+
+	while(!error) {
+		console.log("call started")
+		const cgevents = []//await inara.getCommunityGoalsRecent()
+		if (!cgevents || cgevents.length <= 0) {
+			error = true
+			break
+		}
+
+		var embeds = []
+		for (var i=0; i<cgevents.length; i+=1) {
+			const eventItem = cgevents[i]
+			console.log("eventItem: ", eventItem)
+			eventItem.eventData.map((data) => embeds.push(embedCGData(data)))
+		}
+		
+		if (lastmsg && equalEmbeds(lastmsg.embeds, embeds)) {
+			lastmsg = await webhookClient.editMessage(lastmsg, {
+				embeds: embeds
+			})
+		} else {
+			lastmsg = await webhookClient.send({
+				embeds: embeds
+			})
+		}
+
+		retrys = 0
+		console.log("call finished")
+		await sleep(60*60*1000)
+		console.log("sleep finished")
 	}
+	console.log("loop broken")
+	error = false
 	retrys += 1
-	if (retrys < MAX_RETRYS) setTimeout(work, retrys*retrys*0.1*60*1000)
+	if (retrys < MAX_RETRYS) setTimeout(work, retrys*retrys*60*60*1000)
 }
 work()

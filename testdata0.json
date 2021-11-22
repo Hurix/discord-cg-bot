@@ -35,3 +35,193 @@
         }
     ]
 }
+[
+    {
+      communitygoalName: 'Contribute to Orion University Knowledge Drive',
+      communitygoalGameID: 694,
+      starsystemName: 'HIP 43670',
+      stationName: 'Shaara Gateway',
+      goalExpiry: '2021-11-25T06:00:00+00:00',
+      tierReached: 2,
+      tierMax: 5,
+      contributorsNum: 1080,
+      contributionsTotal: 11502931,
+      isCompleted: false,
+      lastUpdate: '2021-11-22T19:00:09+00:00',
+      goalObjectiveText: 'Deliver Unusual Encrypted Files, Anomalous Bulk Scan Data and Unidentified Scan Archives',
+      goalRewardText: '',
+      goalDescriptionText: 'The HIP 43670 system is hosting two competing delivery initiatives, each of which aims to benefit the Scriveners Clan.\n' +
+        '\n' +
+        'Orion University has partnered with Independent HIP 43670 Labour, which is requesting deliveries of anomalous bulk scan data, unusual encrypted files and unidentified scan archives to Shaara Gateway in HIP 43670. \n' +
+        '\n' +
+        "The university's campaign was explained by Vice Chancellor Leland Pettigrew:\n" +
+        '\n' +
+        `"Although Dredger J-403 is legally our property, what we value most is the Scriveners Clan's dedication to deep-space research. To convince them of our noble intentions, we are donating scientific data and samples to their Knowledge Core. Our proposal is that they permit us to accompany them on their journey and share in any future discoveries."\n` +
+        '\n' +
+        'Although there remains no response from the Scriveners Clan, the dredger is now actively monitoring all local and interstellar transmissions. This is a new development for the isolated community, and suggests they are aware of these competing efforts.\n' +
+        '\n' +
+        'The first campaign to reach its maximum tier will successfully make its case. If neither campaign reaches the maximum tier, then the one with the highest proportional tier completion will be considered victorious.\n' +
+        '\n' +
+        'The dual initiatives begin on the 18th of November 3307 and will run for one week. Should the campaign to support Orion University reach the maximum tier it will end immediately.',
+      inaraURL: 'https://inara.cz/galaxy-communitygoals/'
+    },
+    {
+      communitygoalName: 'Support the Scriveners Dredger Update Initiative',
+      communitygoalGameID: 693,
+      starsystemName: 'HIP 43670',
+      stationName: 'Oramus Terminal',
+      goalExpiry: '2021-11-25T06:00:00+00:00',
+      tierReached: 3,
+      tierMax: 5,
+      contributorsNum: 1548,
+      contributionsTotal: 9007190,
+      isCompleted: false,
+      lastUpdate: '2021-11-22T19:00:43+00:00',
+      goalObjectiveText: 'Deliver Emergency Power Cells, Power Converter and Power Transfer Bus',
+      goalRewardText: '',
+      goalDescriptionText: 'The HIP 43670 system is hosting two competing delivery initiatives, each of which aims to benefit the Scriveners Clan.\n' +
+        '\n' +
+        'Supporters of the Scriveners Clan are being asked to gather emergency power cells, power converters and power transfer buses and deliver them to the Alliance of HIP 42371 at Oramus Terminal. A spokesperson told the media:\n' +
+        '\n' +
+        `"These supplies are needed to perform vital repairs to the dredger. Furthermore, if the power systems are sufficiently updated, they can bypass the ancient components affected by Orion University's override codes and continue travelling independently."\n` +
+        '\n' +
+        'Although there remains no response from the Scriveners Clan, the dredger is now actively monitoring all local and interstellar transmissions. This is a new development for the isolated community, and suggests they are aware of these campaigns.\n' +
+        '\n' +
+        'The first campaign to reach its maximum tier will successfully make its case. If neither campaign reaches the maximum tier, then the one with the highest proportional tier completion will be considered victorious.\n' +
+        '\n' +
+        'The dual initiatives begin on the 18th of November 3307 and will run for one week. Should the campaign to support the Scriveners Clan reach the maximum tier it will end immediately.',
+      inaraURL: 'https://inara.cz/galaxy-communitygoals/'
+    },
+    {
+      communitygoalName: 'Fight for Aegis and Admiral Aden Tanner',
+      communitygoalGameID: 691,
+      starsystemName: 'T Tauri',
+      stationName: 'Musashi',
+      goalExpiry: '2021-11-14T16:35:15+00:00',
+      tierReached: 2,
+      tierMax: 6,
+      contributorsNum: 547,
+      contributionsTotal: 12799581133,
+      isCompleted: true,
+      lastUpdate: '2021-11-22T19:00:13+00:00',
+      goalObjectiveText: 'Hand in Combat bonds',
+      goalRewardText: '',
+      goalDescriptionText: "The megaship Musashi is commanded by Aegis's chief military liaison Admiral Aden Tanner, who made this announcement:\n" +
+        '\n' +
+        `"The Hind Mine asteroid base contains proof that Salvation's unlicensed anti-xeno weapon is intentionally designed to provoke the Thargoids, and therefore endangers us all. As Taurus Mining Ventures refuses to cooperate, we have no choice but to obtain the evidence by force."\n` +
+        '\n' +
+        `"This may be our only opportunity to discover Salvation's true ambitions. I urge all independent pilots who have fought alongside Aegis to help us complete this vital mission."\n` +
+        '\n' +
+        'Admiral Aden Tanner has asked pilots to support his efforts by handing in Combat Bonds at the megaship Musashi in the T Tauri system.\n' +
+        '\n' +
+        'The two factions have set out seven-day campaigns, which will end when the top tier is reached or early on Thursday the 18th of November 3307.',
+      inaraURL: 'https://inara.cz/galaxy-communitygoals/'
+    },
+    {
+      communitygoalName: 'Fight for Taurus Mining Ventures',
+      communitygoalGameID: 692,
+      starsystemName: 'T Tauri',
+      stationName: 'Hind Mine',
+      goalExpiry: '2021-11-18T06:00:00+00:00',
+      tierReached: 6,
+      tierMax: 6,
+      contributorsNum: 2492,
+      contributionsTotal: 80000551905,
+      isCompleted: true,
+      lastUpdate: '2021-11-22T19:00:24+00:00',
+      goalObjectiveText: 'Hand in Combat bonds',
+      goalRewardText: '',
+      goalDescriptionText: "The megaship Musashi is commanded by Aegis's chief military liaison Admiral Aden Tanner, who made this announcement:\n" +
+        '\n' +
+        `"The Hind Mine asteroid base contains proof that Salvation's unlicensed anti-xeno weapon is intentionally designed to provoke the Thargoids, and therefore endangers us all. As Taurus Mining Ventures refuses to cooperate, we have no choice but to obtain the evidence by force."\n` +
+        '\n' +
+        `"This may be our only opportunity to discover Salvation's true ambitions. I urge all independent pilots who have fought alongside Aegis to help us complete this vital mission."\n` +
+        '\n' +
+        'Patience Middleton, a spokesperson for Taurus Mining Ventures, responded:\n' +
+        '\n' +
+        `"This is an illegal attack that jeopardises the important work we are undertaking on behalf of Salvation. It is in the galactic community's interests to defend our corporate headquarters."\n` +
+        '\n' +
+        'Taurus Mining Ventures have asked pilots to support their efforts to repel Aegis by handing in Combat Bonds at the Hind Mine in the T Tauri system.\n' +
+        '\n' +
+        'The two factions have set out seven-day campaigns, which will end when the top tier is reached or early on Thursday the 18th of November 3307.',
+      inaraURL: 'https://inara.cz/galaxy-communitygoals/'
+    },
+    {
+      communitygoalName: 'The Colonia Bridge Project 2nd Phase - Colonia',
+      communitygoalGameID: 689,
+      starsystemName: 'Colonia',
+      stationName: 'Jaques Station',
+      goalExpiry: '2021-11-11T06:00:00+00:00',
+      tierReached: 5,
+      tierMax: 5,
+      contributorsNum: 481,
+      contributionsTotal: 850056,
+      isCompleted: true,
+      lastUpdate: '2021-11-22T18:55:15+00:00',
+      goalObjectiveText: 'Deliver Computer Components, Ceramic Composites and Thermal Cooling Units',
+      goalRewardText: '',
+      goalDescriptionText: 'Brewer Corporation requests deliveries in the Colonia system for the next phase of the Colonia Bridge project.\n' +
+        '\n' +
+        'A successful initiative in October resulted in the placement of 30 dockable megaships at intervals of several hundred light years, providing services such as refuelling and repairs. The second phase seeks to establish this support for the full route between the core systems and the Colonia region.\n' +
+        '\n' +
+        'A press release from Brewer Corporation stated:\n' +
+        '\n' +
+        '"We are now ready to continue work on the Colonia Bridge, by constructing additional megaships to fill the middle of the planned route. As before, we require shipments of ceramic composites, computer components and thermal cooling units at Jaques Station in the Colonia system."\n' +
+        '\n' +
+        '"Should deliveries reach sufficient levels, the top 75% of contributors will be awarded an engineered frame shift drive with increased range and faster boot sequence. Our hope is that this encourages deep space explorers and long-distance haulers to take part in the Colonia Bridge project."\n' +
+        '\n' +
+        'As an additional reward, the top ten contributors at Alcor and Colonia will be invited to submit naming suggestions for the new megaships. Submissions will be subject to review by the Brewer Corporation board of directors. To ensure a variety of choice, only pilots who have not yet submitted names for the Colonia Bridge megaships will be eligible.\n' +
+        '\n' +
+        'Each tier reached will enable Brewer Corporation to add the following megaships to the Colonia Bridge route by the 25th of November 3307. The module reward class is also decided by the final tier.\n' +
+        '\n' +
+        'Tier 1: 2 dockable megaships\n' +
+        'Tier 2: 1 additional dockable megaships\n' +
+        'Tier 3: 1 additional dockable megaships / Modified 3A Frame Shift Drive\n' +
+        'Tier 4: 1 additional dockable megaships / Modified 4A Frame Shift Drive\n' +
+        'Tier 5: 1 additional dockable megaships / Modified 6A Frame Shift Drive\n' +
+        '\n' +
+        'Rewards tiers are cumulative, and higher tiers will include rewards from lower tiers.\n' +
+        '\n' +
+        'The campaign begins on the 4th of November 3307 and will run for one week. If the final target is met earlier than planned, the campaign will end immediately.',
+      inaraURL: 'https://inara.cz/galaxy-communitygoals/'
+    },
+    {
+      communitygoalName: 'The Colonia Bridge Project 2nd Phase - Alcor',
+      communitygoalGameID: 690,
+      starsystemName: 'Alcor',
+      stationName: 'Macdonald Settlement',
+      goalExpiry: '2021-11-11T06:00:00+00:00',
+      tierReached: 5,
+      tierMax: 5,
+      contributorsNum: 6007,
+      contributionsTotal: 32500049,
+      isCompleted: true,
+      lastUpdate: '2021-11-22T18:59:28+00:00',
+      goalObjectiveText: 'Deliver Computer Components, Ceramic Composites and Thermal Cooling Units',
+      goalRewardText: '',
+      goalDescriptionText: 'Brewer Corporation requests deliveries in the Alcor system for the next phase of the Colonia Bridge project.\n' +
+        '\n' +
+        'A successful initiative in October resulted in the placement of 30 dockable megaships at intervals of several hundred light years, providing services such as refuelling and repairs. The second phase seeks to establish this support for the full route between the core systems and the Colonia region.\n' +
+        '\n' +
+        'A press release from Brewer Corporation stated:\n' +
+        '\n' +
+        '"We are now ready to continue work on the Colonia Bridge, by constructing additional megaships to fill the middle of the planned route. As before, we require shipments of ceramic composites, computer components and thermal cooling units at Macdonald Settlement in the Alcor system."\n' +
+        '\n' +
+        '"Should deliveries reach sufficient levels, the top 75% of contributors will be awarded an engineered frame shift drive with increased range and faster boot sequence. Our hope is that this encourages deep space explorers and long-distance haulers to take part in the Colonia Bridge project."\n' +
+        '\n' +
+        'As an additional reward, the top ten contributors at Alcor and Colonia will be invited to submit naming suggestions for the new megaships. Submissions will be subject to review by the Brewer Corporation board of directors. To ensure a variety of choice, only pilots who have not yet submitted names for the Colonia Bridge megaships will be eligible.\n' +
+        '\n' +
+        'Each tier reached will enable Brewer Corporation to add the following to the Colonia Bridge route by the 25th of November 3307. The module reward class is also decided by the final tier.\n' +
+        '\n' +
+        'Tier 1: 4 dockable megaships\n' +
+        'Tier 2: 4 additional dockable megaships\n' +
+        'Tier 3: 4 additional dockable megaships / Modified 3A Frame Shift Drive\n' +
+        'Tier 4: 4 additional dockable megaships / Modified 4A Frame Shift Drive\n' +
+        'Tier 5: 4 additional dockable megaships / Modified 6A Frame Shift Drive\n' +
+        '\n' +
+        'Rewards tiers are cumulative, and higher tiers will include rewards from lower tiers.\n' +
+        '\n' +
+        'The campaign begins on the 4th of November 3307 and will run for one week. If the final target is met earlier than planned, the campaign will end immediately.',
+      inaraURL: 'https://inara.cz/galaxy-communitygoals/'
+    }
+  ]
